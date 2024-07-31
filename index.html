@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Notes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Daily Notes</h1>
+    </div>
+
+    <div class="container">
+        <div class="book-container">
+            <h2>RICCH DAD</h2>
+            <h5>Robert</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sequi repellendus possimus est, doloremque sit vero quasi, eaque blanditiis tempore culpa animi nostrum omnis minus, quos officiis impedit ratione ipsam.</p>
+            <button onclick="deletenote(event)">Delete</button>
+        </div>
+    </div>
+    
+
+    <div class="popup-overlay"></div>
+
+    <div class="pop-box" >
+        <h2>Add Notes</h2>
+        <form action="">
+            <input type="text" placeholder="Title" id="title-input">
+            <input type="text" placeholder="Heading" id="input-head">
+            <textarea name="" id="details" placeholder="Fill something"></textarea>
+            <button id="add" >add</button>
+            <button id="cancel">cancel</button>
+        </form>
+    </div>
+    <button class="add-button" id="addpopup">+</button>
+
+    <script src="javascript.js"></script>
+</body>
+</html> 

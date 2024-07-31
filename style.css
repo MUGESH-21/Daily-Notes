@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgb(147, 142, 51);
+    padding: 1% 0%;
+    text-align: center;
+}
+.container{
+    padding: 10px;
+}
+.book-container{
+    padding: 15px;
+    width: 25%;
+    background-color: wheat;
+    margin:30px;
+    border-radius: 10px;
+    line-height: 130%;
+    display: inline-block;
+    vertical-align: top;
+}
+.book-container h2{
+    color: rgb(147, 142, 51);
+    line-height: 130%;
+}
+.book-container button{
+    background-color: rgb(147, 142, 51);
+    color: black;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 10px;
+}
+.book-container p{
+    line-height: 130%;
+}
+.add-button{
+    background-color:rgb(147, 142, 51);
+    padding:10px 15px;
+    border-radius: 50px;
+    border: none;
+    font-weight: 900;
+    font-size: large;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    border: none;
+}
+.popup-overlay{
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100%;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+.pop-box{
+    background-color: beige;
+    width: 40%;
+    padding: 35px 40px 20px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    z-index: 2;
+    border-radius: 20px;
+    line-height: 300%;
+    display: none;
+}
+.pop-box input{
+    background: transparent;
+    font-size: 20px;
+    border: none;
+    border-bottom: solid black 2px;
+    padding: 5px;
+    width: 100%;
+
+}
+.pop-box textarea{
+    background: transparent;
+    font-size: 20px;
+    border: none;
+    border-bottom: solid black 2px;
+    padding: 5px;
+    width: 100%;
+}
+#add{
+    padding: 5px 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    margin: 2%;
+    border: none;
+    background-color:rgb(147, 142, 51);
+}
+#cancel{
+    padding: 5px 15px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color:rgb(147, 142, 51);
+    margin: 2%;
+    border: none;
+}
+.pop-box input::placeholder{
+    color: black;
+}
+.pop-box textarea::placeholder{
+    color: black;
+}
+.pop-box input:focus{
+    outline: none;
+}
+.pop-box textarea:focus{
+    outline: none;
+}
+button:hover{
+    background-color: rgb(160, 122, 9);
+}
